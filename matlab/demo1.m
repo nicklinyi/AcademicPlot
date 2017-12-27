@@ -47,4 +47,4 @@ plot(k,dtmp(length(dtmp)/2+1:end),'b.');
 xlabel('Frequency (Hz)')
 
 set(gcf,'PaperPosition',[0 0 20 18])
-print('demo1.tif','-r600','-dtiff') 
+print('demo1.png','-r600','-dpng') 
